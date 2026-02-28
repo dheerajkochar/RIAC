@@ -1346,7 +1346,7 @@ document.addEventListener('DOMContentLoaded', function() {
 // Setup all event listeners
 function setupEventListeners() {
     // Form submission
-    document.getElementById('ideaForm').addEventListener('submit', handleFormSubmit);
+    // document.getElementById('ideaForm').addEventListener('submit', handleFormSubmit);
 
     // Field tag pills
     document.querySelectorAll('.tag-pill').forEach(pill => {
