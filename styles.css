@@ -436,32 +436,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 /* Avatar */
-.avatar {
-    width: 60px;
-    height: 60px;
-    border-radius: 50%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-weight: 700;
-    color: white;
-    font-size: 1.5rem;
-    margin-bottom: 1rem;
-    font-family: 'Syne', sans-serif;
-}
 
-.avatar-1 { background-color: #FF6B6B; }
-.avatar-2 { background-color: #4ECDC4; }
-.avatar-3 { background-color: #FFE66D; color: #1a1a1a; }
-.avatar-4 { background-color: #95E1D3; color: #1a1a1a; }
-.avatar-5 { background-color: #F38181; }
-.avatar-6 { background-color: #AA96DA; }
-.avatar-7 { background-color: #FCBAD3; color: #1a1a1a; }
-.avatar-8 { background-color: #A8D8EA; color: #1a1a1a; }
-.avatar-9 { background-color: #FF9999; }
-.avatar-10 { background-color: #FFB7B2; color: #1a1a1a; }
-.avatar-11 { background-color: #FFDAB9; color: #1a1a1a; }
-.avatar-12 { background-color: #A8D8EA; }
+
 
 .professor-name {
     font-size: 1.25rem;

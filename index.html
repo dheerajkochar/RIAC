@@ -35,17 +35,14 @@
             <div class="hero-right">
                 <div class="stats-grid">
                     <div class="stat-card">
-                        <div class="stat-number">42+</div>
+                        <div class="stat-number">109+</div>
                         <div class="stat-label">Professors</div>
                     </div>
                     <div class="stat-card">
                         <div class="stat-number">18</div>
                         <div class="stat-label">Research Fields</div>
                     </div>
-                    <div class="stat-card">
-                        <div class="stat-number">120+</div>
-                        <div class="stat-label">Connections Made</div>
-                    </div>
+                   
                 </div>
             </div>
         </div>
@@ -77,7 +74,7 @@
 
     <!-- Idea Submission Form -->
     <section class="submit-section" id="submit-form">
-        <div class="container">
+        <!-- <div class="container">
             <h2 class="section-title">Submit Your Idea</h2>
             <form class="submit-form" id="ideaForm">
                 <div class="form-group">
@@ -112,12 +109,13 @@
             </form>
 
             <!-- Matched Professors Display -->
-            <div id="matchedProfessors" class="matched-section" style="display: none;">
+            <!-- <div id="matchedProfessors" class="matched-section" style="display: none;">
                 <h3>Professors Matching Your Interests</h3>
                 <div class="professors-grid" id="matchedGrid"></div>
-            </div>
-        </div>
-    </section>
+            </div> -->
+        <!-- 
+         -->
+    </section> 
 
     <!-- Professor Directory -->
     <section class="directory-section" id="professor-directory">
@@ -129,17 +127,33 @@
                 <span class="search-icon">🔍</span>
             </div>
 
-            <div class="filter-chips">
-                <button class="chip chip-active" data-filter="all">All Fields</button>
-                <button class="chip" data-filter="solar">Solar</button>
-                <button class="chip" data-filter="sustainability">Sustainability</button>
-                <button class="chip" data-filter="ai">AI & ML</button>
-                <button class="chip" data-filter="iot">IoT</button>
-                <button class="chip" data-filter="biotech">Biotech</button>
-                <button class="chip" data-filter="robotics">Robotics</button>
-                <button class="chip" data-filter="ev">EV & Clean Tech</button>
-                <button class="chip" data-filter="data">Data Science</button>
-            </div>
+      <div class="filter-chips">
+    <button class="chip chip-active" data-filter="all">All Professors</button>
+    
+    <!-- Computer Science / AI / Security / Systems -->
+    <button class="chip" data-filter="cs-ai">AI & Machine Learning</button>
+    <button class="chip" data-filter="cs-security">Cybersecurity & Privacy</button>
+    <button class="chip" data-filter="cs-systems">Systems & Architecture</button>
+    
+    <!-- Electronics / Communication -->
+    <button class="chip" data-filter="ece-wireless">Wireless / 5G / IoT</button>
+    <button class="chip" data-filter="ece-vlsi">VLSI & Nanoelectronics</button>
+    <button class="chip" data-filter="ece-signal">Signal / Image Processing</button>
+    <button class="chip" data-filter="ece-optical">Optical / Photonics</button>
+    
+    <!-- Chemical Engineering -->
+    <button class="chip" data-filter="chem-green">Green Chemistry & Sustainability</button>
+    <button class="chip" data-filter="chem-energy">Energy & Biofuels</button>
+    <button class="chip" data-filter="chem-separation">Separation & Membranes</button>
+    <button class="chip" data-filter="chem-nano">Nanotechnology & Materials</button>
+    
+    <!-- Civil Engineering -->
+    <button class="chip" data-filter="civil-structural">Structural & Earthquake Engg</button>
+    <button class="chip" data-filter="civil-hydraulics">Water Resources & Hydraulics</button>
+    <button class="chip" data-filter="civil-planning">Urban & Transport Planning</button>
+    <button class="chip" data-filter="civil-geotech">Geotechnical Engineering</button>
+    <button class="chip" data-filter="civil-environment">Environmental Engineering</button>
+</div>
 
             <div class="professors-grid" id="professorsGrid"></div>
 
